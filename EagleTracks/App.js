@@ -7,13 +7,13 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 //Should really look into cleaning up all the page imports.
 //Having each page in a separate feels great, though
-import HomePage from './components/HomePage.js'
-import CredPage from './components/CredPage.js'
-import CheckoutPage from './components/CheckoutPage.js'
-import FinishPage from './components/FinishPage.js';
-import NewItemPage from './components/NewItemPage.js';
-import ReturnPage from './components/ReturnPage.js';
-import WorkPage from './components/WorkPage.js';
+import HomePage from './pages/HomePage.js'
+import CredPage from './pages/CredPage.js'
+import CheckoutPage from './pages/CheckoutPage.js'
+import FinishPage from './pages/FinishPage.js';
+import NewItemPage from './pages/NewItemPage.js';
+import ReturnPage from './pages/ReturnPage.js';
+import WorkPage from './pages/WorkPage.js';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 
 //Initialization*****************************************************************
