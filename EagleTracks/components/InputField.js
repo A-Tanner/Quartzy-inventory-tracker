@@ -10,7 +10,7 @@ const InputField = (props) => {
      function verifyData(){ 
          //Note that checkFunctions is an array of functions
        if (checkFunctions){
-         checkFunctions.forEach( fn => fn() );
+         checkFunctions.forEach( fn => fn(label, value) );
        }
      }
 
