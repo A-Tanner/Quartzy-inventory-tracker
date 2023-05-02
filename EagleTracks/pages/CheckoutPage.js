@@ -15,7 +15,7 @@ const CheckoutPage = ({navigation, style}) => {
     const [toReturn, setToReturn] = useState(false);
     const [itemName, setItemName] = useState('');
   
-    const checkDecrease = () => {
+    const checkDecrease = () => { //TODO : Split this into per-item checking and order info checking
       if(!(numToDecr.trim())){
         alert('Number is empty');
       }else if(!(itemToDecr.trim())){
