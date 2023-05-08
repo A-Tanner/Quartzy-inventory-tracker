@@ -20,7 +20,7 @@ const InputField = (props) => {
         <TextInput 
             style = {props.style.input}
             placeholder = {props.placeholder}
-            keyboardType={props.keyboardType ? props.keyboardType : "text"}
+            keyboardType={props.keyboardType ? props.keyboardType : "default"}
             onChangeText={
                     (entry)=>{
                         setValue(entry)

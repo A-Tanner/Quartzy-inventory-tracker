@@ -55,7 +55,12 @@ const styles = StyleSheet.create({
   },
   checkbox: {
     margin: 8,
-  }
+  },
+  entry:{
+    backgroundColor: '#b0aca4',
+    borderRadius: 20,
+  },
+
 });
 
 const Stack = createNativeStackNavigator();
